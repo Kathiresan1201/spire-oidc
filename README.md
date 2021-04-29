@@ -91,8 +91,14 @@
 
 ## 10.Download file from s3
 
-    AWS_ROLE_ARN=arn:<OIDC-ROLE-ARN> AWS_WEB_IDENTITY_TOKEN_FILE=token aws s3 cp s3://scytale-oidc/scytale_object test.txt
+    Fetch the OIDC ROLE ARN from AWS console
+     * Go to IAM
+     * Click on Roles
+     * Search for scytale-oidc (name of the role)
+     * Copy the Role ARN
+
+    AWS_ROLE_ARN=<OIDC-ROLE-ARN> AWS_WEB_IDENTITY_TOKEN_FILE=token aws s3 cp s3://scytale-oidc/scytale_object test.txt
     
-    Note: OIDC ROLE ARN can be fetched under IAM in aws console after the script execution is complete
+    
     
     
