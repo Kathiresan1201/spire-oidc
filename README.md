@@ -1,6 +1,6 @@
 # Architecture Diagram
 
-   ![alt text](Architecture.png?raw=true "OIDC Federation with SPIRE")
+  
 
 # Execution Steps:
 
