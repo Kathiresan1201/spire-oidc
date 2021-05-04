@@ -1,4 +1,4 @@
-
+########
 Healthcheck:
 
 spire-server healthcheck -registrationUDSPath /var/run/spire/sockets/server.sock 
